@@ -1,6 +1,9 @@
         /* most low level resulation like galaxy fold */
         
         @media (min-widht: 279px) and (max-widht: 319px) {
+            body {
+                overflow-x: hidden;
+            }
             .header .navbar-light .navbar-nav {
                 transform: translateX(-15px);
             }
@@ -140,6 +143,9 @@
 */
         
         @media (min-width: 320px) and (max-width: 480px) {
+            body {
+                overflow-x: hidden;
+            }
             .header .navbar-light .navbar-nav {
                 transform: translateX(-15px);
             }
@@ -284,6 +290,9 @@
         
         @media (min-width: 481px) and (max-width: 767px) {
             /* CSS */
+            body {
+                overflow-x: hidden;
+            }
             .header .navbar-light .navbar-nav {
                 transform: translateX(-15px);
             }
@@ -432,6 +441,9 @@
         
         @media (min-width: 768px) and (max-width: 1024px) {
             /* css */
+            body {
+                overflow-x: hidden;
+            }
             .header .navbar-light .navbar-nav {
                 transform: translateX(-15px);
             }
