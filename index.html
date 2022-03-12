@@ -34,34 +34,43 @@
     <!-- header part start here -->
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="logo">
-                        <img src="./images/logo.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="menu-part">
-                        <ul>
-                            <a href="#">
-                                <li>Home</li>
-                            </a>
-                            <a href="#">
-                                <li>About</li>
-                            </a>
-                            <a href="#">
-                                <li>Service</li>
-                            </a>
-                            <a href="#">
-                                <li>Testimonial</li>
-                            </a>
-                            <a href="#">
-                                <li>Contact</li>
-                            </a>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" class="logo" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-icon">
+                                <a class="nav-link" href="#"><i class="bi bi-telephone-inbound-fill"></i></a>
+                            </li>
+                            <li class="nav-icon">
+                                <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                            </li>
+
                         </ul>
+
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
@@ -108,7 +117,7 @@
                                 <a class="btn btn-primary" href="#">Book Now</a>
                             </div>
                             <div class="col-lg-6">
-                                <div class="form-part">
+                                <div class="form-part margin">
                                     <input type="text" placeholder="To" class="form-control">
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
@@ -130,10 +139,12 @@
     <section class="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="title">
                         <h2>Services</h2>
-                        <img src="./images/main car.png" alt="">
+                        <div class="service-img">
+                            <img src="./images/main car.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -189,7 +200,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12">
                     <div class="team-area">
                         <div class="single-team">
                             <img src="./images/feature-1.png" alt="">
@@ -206,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-sm-12">
                     <div class="team-area-1">
                         <div class="single-team">
                             <img src="./images/feature-2.png" alt="">
@@ -225,7 +236,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-12">
                     <div class="team-area-2">
                         <div class="single-team">
                             <img src="./images/feature-3.png" alt="">
@@ -242,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 ">
+                <div class="col-lg-9 col-sm-12">
                     <div class="team-area-3">
                         <div class="single-team">
                             <img src="./images/feature-4.png" alt="">
@@ -277,7 +288,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-sm-12">
                     <div class="recent-img">
                         <img src="./images/recent-img-1.png" alt="">
                     </div>
@@ -294,7 +305,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-sm-12">
                     <div class="recent-img">
                         <img src="./images/recent-img-2.png" alt="">
                     </div>
@@ -311,7 +322,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-sm-12">
                     <div class="recent-img">
                         <img src="./images/recent-img-3.png" alt="">
                     </div>
@@ -629,12 +640,12 @@
         <div class="footer-down">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                         <div class="footer-down-left">
                             <p>All Rights Reserved By Rentlia</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-sm-12">
                         <div class="footer-down-right">
                             <ul>
                                 <a href="# ">
@@ -730,6 +741,40 @@
         });
     </script>
 
+
+
+    <!-- <header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="menu-part">
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>About</li>
+                        </a>
+                        <a href="#">
+                            <li>Service</li>
+                        </a>
+                        <a href="#">
+                            <li>Testimonial</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header> -->
 
 
 
